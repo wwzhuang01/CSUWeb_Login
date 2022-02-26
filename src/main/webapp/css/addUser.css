@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: PingFangSC-Regular;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 400px;
+    margin: 50px auto;
+}
+.container .container_main{
+    background-color: white;
+    font-size: 16px;
+}
+.container h2{
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+.container .container_main label{
+    display: inline-block;
+    width: 70px;
+    padding: 10px;
+}
+.container .container_main input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 30px;
+    height: 30px;
+    width: 300px;
+    margin: 10px 0;
+
+}
+.container .container_main input:focus{
+    outline:none;
+}
+.container .container_main .btn{
+    width: 300px;
+    margin: 10px auto;
+}
+.container .container_main .error{
+    color: red;
+}
+
