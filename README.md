@@ -6,7 +6,7 @@
 
 ### 1、前端页面的基本布局
 
-1. 布局类似于学校门户 http://my.csu.edu.cn/login/index.jsp
+1. 布局类似于学校门户：[中南大学统一身份认证平台](http://my.csu.edu.cn/login/index.jsp) 
 2. 顶部需有 LOGO 栏目；
 3. 左侧提供轮播图；
 4. 提供账号密码登录方式；
