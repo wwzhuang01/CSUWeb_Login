@@ -73,7 +73,7 @@
 
 查询用户：
 
-![image-20220504201534930](images/README/image-20220504201534930.png)
+<img src="images/README/image-20221125154257998.png" alt="image-20221125154257998" style="zoom:80%;" />
 
 添加用户：
 
