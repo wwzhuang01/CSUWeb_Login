@@ -4,12 +4,12 @@ import com.zhenzi.sms.ZhenziSmsClient;
 
 import java.util.HashMap;
 import java.util.Map;
-
+// 参考：https://blog.csdn.net/weixin_45691686/article/details/121654353?utm_source=app&app_version=4.19.1&code=app_1562916241&uLinkId=usr1mkqgl919blen
 public class PhoneUtil {
     //这里我是个人开发者，使用这个apiUrl
     static String apiUrl = "https://sms_developer.zhenzikj.com";
-    static String appId = "***REMOVED***";
-    static String appSecret = "***REMOVED***";
+    static String appId = "xxx";
+    static String appSecret = "xxx";
     public static ZhenziSmsClient client = new ZhenziSmsClient(apiUrl, appId, appSecret);
 
     public static String sendCode(String number,String style,String code) throws Exception {
