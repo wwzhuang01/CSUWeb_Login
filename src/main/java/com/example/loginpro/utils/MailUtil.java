@@ -16,7 +16,7 @@ public class MailUtil {
      * @param code 传入的验证码
      */
     public static void sendMail(String to, String code) {
-        String myEmail = "1551389932@qq.com";       // 发送者邮箱
+        String myEmail = "xx@qq.com";       // 发送者邮箱，敏感信息待补充
         // Session对象:
         Properties props = new Properties();
         props.setProperty("mail.smtp.host", "smtp.qq.com"); // 设置主机地址
@@ -49,7 +49,7 @@ public class MailUtil {
             Transport transport = session.getTransport("smtp");
             // 9.设置火箭的发射目标（第三个参数就是你的邮箱授权码）
             //transport.connect("smtp.163.com", "发送者@163.com", "sxncleplxnybiceb");
-            transport.connect("smtp.qq.com", myEmail, "sxncleplxnybiceb");
+            transport.connect("smtp.qq.com", myEmail, "xxx");  // 敏感信息待补充
             // 10.发送
             transport.sendMessage(message, message.getAllRecipients());
 
